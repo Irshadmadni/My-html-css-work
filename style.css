@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: coral;
+    background-position: center;
+}
+.main{
+    background-color: blue;
+    text-align: center;
+}
+.main ul{
+    display: inline-flex;
+    list-style: none;
+}
+.main ul li{
+    margin: 20px;
+    padding: 15px;
+    width: 100px;
+    color: white;
+}
+.main ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 0.4s;
+}
+.main ul li a:hover{
+    color: rgb(235, 17, 17);
+    border-radius: 2px;
+    border-bottom: 5px solid wheat;
+}
+.sub-menu{
+    display: none;
+}
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color:cadetblue;
+    margin-top: 17px;
+    margin-left: -15px;
+}
+.main ul li:hover .sub-menu ul{
+display: block;
+}
+.main ul li:hover .sub-menu ul li{
+    text-align: center;
+    padding-top: -10px;
+    font-size: x-small;
+    width: 120px;
+    border-bottom: 2px dotted white;
+}
+.main ul li:hover .sub-menu ul li :last-child{
+    border: none;
+}
+.main ul li :hover .sub-menu ul li:hover{
+    background-color: brown;
+    
+}
+.sub-menu2{
+    display: none;
+}
+.hover:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    font-size: x-small;
+    padding-top: -10px;
+    width: 180px;
+    margin-left: 120px;
+    margin-top: -50px;
+    background-color: cadetblue;
+}
