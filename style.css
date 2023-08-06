@@ -9,6 +9,7 @@ body{
 .main{
     background-color: blue;
     text-align: center;
+    width: 100%;
 }
 .main ul{
     display: inline-flex;
@@ -120,6 +121,7 @@ div.pic {
 .myname {
     background-color: #0ad03c;
     display: flex;
+    width: 100%;
 
     padding: 10px;
     justify-content: center;
@@ -179,7 +181,7 @@ body {
 
 .portfolio {
     max-width: 850px;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
