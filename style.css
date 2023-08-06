@@ -314,7 +314,7 @@ letter-spacing: 1px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif;
     font-size: large;
     font-weight: bold;
-    color:#209109;
+    color:#c00d0d;
 }
 .i{
     font-family:Arial, Helvetica, sans-serif;
@@ -327,7 +327,7 @@ letter-spacing: 1px;
     background-color: rgba(207, 14, 14, 0.747);
     border: 10px double cornsilk;
     margin-top: -90px;
-    margin-left: -30px;
+    margin-left: -50px;
     margin-right: 60px;
     text-align: center;
     border-radius: 50%;
