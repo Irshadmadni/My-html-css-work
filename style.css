@@ -6,13 +6,11 @@ body{
     background-color: coral;
     background-position: center;
 }
-.container{
-    width: 100%;
-}
 .main{
     background-color: blue;
     text-align: center;
     width: 100%;
+    margin: 0%;
 }
 .main ul{
     display: inline-flex;
@@ -22,7 +20,7 @@ body{
     margin: 15px;
     padding: 10px;
     height: 20px;
-    width: 140px;
+    width: 150px;
     color: white;
     justify-content: space-around;
 }
