@@ -11,6 +11,7 @@ body{
     text-align: center;
     width: 100%;
     margin: 0%;
+    padding-right: 10px;
 }
 .main ul{
     display: inline-flex;
