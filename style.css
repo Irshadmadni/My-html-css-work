@@ -6,6 +6,9 @@ body{
     background-color: coral;
     background-position: center;
 }
+.container{
+    width: 100%;
+}
 .main{
     background-color: blue;
     text-align: center;
