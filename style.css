@@ -15,18 +15,22 @@ body{
     list-style: none;
 }
 .main ul li{
-    margin: 20px;
-    padding: 15px;
-    width: 100px;
+    margin: 15px;
+    padding: 10px;
+    height: 20px;
+    width: 140px;
     color: white;
+    justify-content: space-around;
 }
 .main ul li a{
     text-decoration: none;
     color: aliceblue;
     transition: 0.4s;
 }
-.main ul li a:hover{
-    color: rgb(235, 17, 17);
+.ative,.main ul li a:hover{
+    color: gold;
+    background-color:blueviolet;
+    padding: 15px 10px 5px 7px;
     border-radius: 2px;
     border-bottom: 5px solid wheat;
 }
@@ -37,8 +41,10 @@ body{
     display: block;
     position: absolute;
     background-color:cadetblue;
-    margin-top: 17px;
-    margin-left: -15px;
+    margin-top: 05px;
+    text-align: center;
+    padding: 0px;
+    margin-left: 15px;
 }
 .main ul li:hover .sub-menu ul{
 display: block;
@@ -47,14 +53,14 @@ display: block;
     text-align: center;
     padding-top: -10px;
     font-size: x-small;
-    width: 120px;
+    width: 150px;
     border-bottom: 2px dotted white;
 }
 .main ul li:hover .sub-menu ul li :last-child{
     border: none;
 }
 .main ul li :hover .sub-menu ul li:hover{
-    background-color: brown;
+    background-color: honeydew;
     
 }
 .sub-menu2{
@@ -62,11 +68,278 @@ display: block;
 }
 .hover:hover .sub-menu2{
     display: block;
-    position: absolute;
-    font-size: x-small;
-    padding-top: -10px;
-    width: 180px;
-    margin-left: 120px;
+    text-align: left;
+    font-size: xx-small;
+    width: 200px;
+    margin-left: 150px;
     margin-top: -50px;
     background-color: cadetblue;
 }
+.fa-solid{
+    font-size: large;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.fa-brands{
+    font-size: large;
+    font-weight: 400;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+}
+img {
+    justify-self: center;
+    border: #0A2647 2px solid;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 1px #080808;
+    width: 250px;
+    height: 250px;
+}
+
+div {
+    justify-items: center;
+}
+
+div.pic {
+
+
+    display: flex;
+    display: inline;
+    justify-items: center;
+
+}
+
+.n {
+    text-align: center;
+}
+
+/* portfolio style sheet */
+
+.myname {
+    background-color: #0ad03c;
+    display: flex;
+
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.n {
+    color: white;
+    display: flex;
+    font-size: 300%;
+    margin: 80px 0px 10px 10px;
+    font-family: 'Cherry Swash', cursive;
+    display: flex;
+    font-style: italic;
+    text-shadow: 1px 2px 8px #050505;
+}
+.n:hover {
+    text-shadow: -1px 22px 7px #fa0606b6;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out
+}
+
+.mypic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 0%;
+    margin-left: 03%;
+    box-shadow: none;
+    border: 2px #fff;
+    box-shadow: rgba(210, 69, 30, 0.602) 0px 25px 50px -12px;
+
+}
+
+.mypic:hover {
+    box-shadow: 2px 8px 20px 4px #f70c28c9,2px 8px 20px 4px #e6570aa9;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+/* about me styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0px;
+    height: auto;
+}
+
+.info{
+    color: #333;
+    font-family: fantasy;
+    letter-spacing: 3px;
+}
+
+.portfolio {
+    max-width: 850px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.header-box {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.info-box,
+.skills-box,
+.contact-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 05px;
+    margin-bottom: 20px;
+}
+
+/* .skills-box ul,
+.contact-box ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    margin: 5px;
+}
+
+.skills-box li,
+.contact-box li {
+    margin-bottom: 5px;
+    background-color: white;
+    margin-right: 5px;
+} */
+
+ul.fa-ul {
+    display: flex;
+    display: inline-flex;
+    background-color: white;
+    color: white;
+    margin: 0;
+}
+
+.skills {
+    text-justify: distribute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.fa-ul a {
+    margin-right: 20px;
+    
+    font-size: x-large;
+    border-radius: 50px;
+    width: 100px;
+    height: 10px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.fa-ul a :hover{
+    font-size: xx-large;
+    
+
+}
+.skills-box i{
+    padding-right: 20px;
+    text-align: center;
+border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+margin-right: 10px; 
+height: 25px;
+padding: 1%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #dfe9f1;
+letter-spacing: 1px;
+}
+.a{
+    font-family: sans-serif;
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+.b{
+    font-family: verdana;
+    font-size: large;
+    font-weight: bold;
+    color:#0ad03c ;
+}
+.c{
+    font-family: 'Cherry Swash', cursive ;
+    font-size: medium;
+    font-weight: bold;
+    color:#1f1471;
+}
+.d{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: medium;
+    font-weight: bold;
+    color:#f60b0b;
+}
+.e{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color:#1449ac;
+}
+.f{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color:#096a36;
+}
+.g{
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color:#b53317;
+}
+.h{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color:#209109;
+}
+.i{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#359c05;
+    letter-spacing: 2px;
+}
+.logo{
+    background-color: rgba(207, 14, 14, 0.747);
+    border: 10px double cornsilk;
+    margin-top: -90px;
+    margin-left: -30px;
+    margin-right: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 25px 07px;
+    color: white;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sp{
+    background-color: #1449ac;
+    padding: 20px 10px;
+    border: 5px solid #333;
+    border-radius: 50%;
+}
+
+
+
+
